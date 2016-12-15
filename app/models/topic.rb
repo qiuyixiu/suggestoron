@@ -1,3 +1,3 @@
 class Topic < ApplicationRecord
-  han_many :votes,dependent: :destroy
+  has_many :votes,dependent: :destroy
 end
